@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Store/Images/Array.png" width="100" height="100" />
+  <img src="../Store/Images/Array.png" width="100" height="100" />
   
   <hr height="0.5px" />
   
@@ -13,7 +13,7 @@
 <hr/>
 
 <div align="center">
-  <img src="./Store/Images/Array_Definition.png" />
+  <img src="../Store/Images/Array_Definition.png" />
 </div>
 
 <br/>
@@ -23,13 +23,13 @@
 ---
 
 ```text
-    variable declaration — (array name)
+variable declaration — (array name)
 
-		size of the array — (declared depending on the language)
+size of the array — (declared depending on the language)
 
-		elements within the array — (determine the type of the array)
+elements within the array — (determine the type of the array)
 
-		index of the array — (starts with 0 to len(array) - 1)
+index of the array — (starts with 0 to len(array) - 1)
 ```
 
 <br/>
@@ -56,6 +56,12 @@ characterArray = ['c', 'o', 'd', 'e'] # DataType: character | Index: 0 - 3 | Len
 ### Operations
 
 ---
+
+- [] `init` — initialize / create the array
+
+```py
+myArray = [1, 2, 3, 4, 5]
+```
 
 ```py
 # init — initialize / create the array
@@ -108,27 +114,24 @@ newArray = myArray
 ---
 
 ```py
-'''
-Static Array - when you have to specify the length of the array when you declare it
-'''
+
+# Static Array - when you have to specify the length of the array when you declare it
+
 
 array = [6, 1, 4]
+```
 
-'''
-Dynamic Array (aka vector) - Is an array that can change in size
-by allocating extra space in memory.
-'''
+```py
+# Dynamic Array (aka vector) - Is an array that can change in size by allocating extra space in memory.
+
 
 array = [6, 1, 4, __, __, __]
+```
 
-'''
-Arrays are used to implement other data structures, such as
-lists, heaps, hash tables, deques, queues and stacks.
-'''
+```py
+# Arrays are used to implement other data structures, such as lists, heaps, hash tables, deques, queues and stacks.
 
-'''
-All sorting algorithms use arrays at their core.
-'''
+# All sorting algorithms use arrays at their core.
 ```
 
 <br/>
