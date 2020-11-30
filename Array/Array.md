@@ -63,17 +63,23 @@ characterArray = ['c', 'o', 'd', 'e'] # DataType: character | Index: 0 - 3 | Len
 myArray = [1, 2, 3, 4, 5]
 ```
 
+<br/>
+
 - [ ] `get` — access value in the array. This will return the value at the index location
 
 ```py
 myArray[index]
 ```
 
+<br/>
+
 - [ ] `set` — update value in the array at the given index
 
 ```py
 myArray[index] = new_value
 ```
+
+<br/>
 
 - [ ] `traverse` — go through each element in the array
 
@@ -82,11 +88,15 @@ for index in range(len(myArray)):
   print(myArray[index])
 ```
 
+<br/>
+
 - [ ] `copy` — make a duplicate of the array
 
 ```py
 newArray = myArray
 ```
+
+<br/>
 
 - [ ] `insert` — add an element to the array
 
@@ -101,6 +111,8 @@ myArray.insert(index, value)
 someArray = [5, 9, 3]
 myArray.extend(someArray)
 ```
+
+<br/>
 
 - [ ] `delete` — remove an element in the array
 
