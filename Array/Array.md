@@ -57,53 +57,61 @@ characterArray = ['c', 'o', 'd', 'e'] # DataType: character | Index: 0 - 3 | Len
 
 ---
 
-- [] `init` — initialize / create the array
+- [ ] `init` — initialize / create the array
 
 ```py
 myArray = [1, 2, 3, 4, 5]
 ```
 
+- [ ] `get` — access value in the array. This will return the value at the index location
+
 ```py
-# init — initialize / create the array
-myArray = [1, 2, 3, 4, 5]
-
-# get — access value in the array
-# this will return the value at the index location
 myArray[index]
+```
 
-# set — update value in the array at the given index
+- [ ] `set` — update value in the array at the given index
+
+```py
 myArray[index] = new_value
+```
 
-# traverse — go through each element in the array
+- [ ] `traverse` — go through each element in the array
+
+```py
 for index in range(len(myArray)):
   print(myArray[index])
+```
 
-# copy — make a duplicate of the array
+- [ ] `copy` — make a duplicate of the array
+
+```py
 newArray = myArray
+```
 
-# insert — add an element to the array
-# in python:
+- [ ] `insert` — add an element to the array
 
-  # add element to the end
-  myArray.append(6)
+```py
+# add element to the end
+myArray.append(6)
 
-  # add element to a specific index / location in the array
-  myArray.insert(index, value)
+# add element to a specific index / location in the array
+myArray.insert(index, value)
 
-  # appending an array to a different array
-  someArray = [5, 9, 3]
-  myArray.extend(someArray)
+# appending an array to a different array
+someArray = [5, 9, 3]
+myArray.extend(someArray)
+```
 
-# delete — remove an element in the array
-# in python:
+- [ ] `delete` — remove an element in the array
 
-  # remove a specific value in the array
-  myArray.remove[value]
+```py
+# remove a specific value in the array
+myArray.remove[value]
 
-  # remove an element at a specified index
-  myArray.pop(index) # pop() also returns the value popped
+# remove an element at a specified index
+myArray.pop(index) # pop() also returns the value popped
 
-  del myArray[index]
+del myArray[index]
 ```
 
 <br/>
@@ -130,7 +138,9 @@ array = [6, 1, 4, __, __, __]
 
 ```py
 # Arrays are used to implement other data structures, such as lists, heaps, hash tables, deques, queues and stacks.
+```
 
+```py
 # All sorting algorithms use arrays at their core.
 ```
 
