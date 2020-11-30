@@ -6,7 +6,7 @@
   <br/>
   <p> Data Structures </p>
   <h3> Arrays </h3>
-  <p> A container object that holds a fixed number of values of a single type. </p>
+  <p> A container object that holds a fixed number of values of a single type. Arrays are one of the most classic and most commonly used data structures.</p>
   <br/>
 </div>
 
