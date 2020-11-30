@@ -57,7 +57,7 @@ characterArray = ['c', 'o', 'd', 'e'] # DataType: character | Index: 0 - 3 | Len
 
 ---
 
-- [ ] `init` — initialize / create the array
+> `init` — initialize / create the array
 
 ```py
 myArray = [1, 2, 3, 4, 5]
