@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Store/Images/DataStructures.png" width="100" height="100" />
+  <img src="Store/Images/DataStructures.png" width="100" height="100" />
   
   <hr height="0.5px" />
   
